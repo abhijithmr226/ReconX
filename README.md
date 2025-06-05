@@ -1,33 +1,25 @@
-# ReconX
+# 🔍 ReconX – Subdomain & Directory Bruteforcer
 
-![ReconX Logo](Assets/logo.png)
+A powerful Python GUI tool for subdomain enumeration, directory brute-forcing, live domain checking, WAF detection, and screenshot capturing of active websites.
 
-**ReconX** is a modern, dark-themed GUI tool designed for penetration testers and security researchers to perform efficient subdomain and directory brute forcing with screenshot capture and WAF detection.
-
----
-
-## Features
-
-- Bruteforce subdomains and directories with custom wordlists  
-- Detect popular WAFs (Cloudflare, Akamai, AWS, Sucuri, F5)  
-- Capture website screenshots automatically using headless Chrome (Selenium)  
-- Responsive and sleek dark-themed UI built with ttkbootstrap  
-- Multithreaded scanning to keep the interface responsive  
-- Real-time output logs displayed in the app  
+> 💡 Built by [Abhijith M.R](https://github.com/abhijithmr226)
 
 ---
 
-## Screenshots
+## 🚀 Features
 
-![ReconX Screenshot](Assets/screenshot.png)  
-*(Add your own screenshots here)*
+- 🌐 **Subdomain Brute-Forcing** (custom wordlist)
+- 📂 **Directory Brute-Forcing** (custom wordlist)
+- ✅ **Live Domain Checking** (DNS + HTTP)
+- 🛡️ **WAF Detection** (via HTTP headers)
+- 📸 **Screenshot Capture** using Selenium
+- 🖥️ **Modern Python GUI** with `tkinter`
 
 ---
 
-## Installation
+## 📦 Requirements
 
-1. **Clone the repository**
+Install the required Python packages:
 
-   ```bash
-   git clone https://github.com/abhijithmr226/ReconX.git
-   cd ReconX
+```bash
+pip install requests selenium pillow tldextract dnspython
